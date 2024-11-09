@@ -84,4 +84,3 @@ To make a DNS query from any device on the same network:
     dig @192.168.1.2 google.com
     ```
     Replace `192.168.1.2` with your server PC's IP.
-https://youtu.be/dL26Og9LRC0
