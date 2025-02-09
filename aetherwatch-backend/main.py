@@ -4,7 +4,7 @@ import os
 import re
 
 def install_requirements(requirements_file):
-    # Read the content of the requirements file
+    # Reads the content of the requirements file
     with open(requirements_file, 'r') as file:
         requirements = file.readlines()
     exclude_packages = None
