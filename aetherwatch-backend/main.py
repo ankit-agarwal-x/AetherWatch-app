@@ -10,7 +10,7 @@ def install_requirements(requirements_file):
     exclude_packages = None
 
     if sys.platform != "darwin":
-        exclude_packages = ["tensorflow_macos"]  # Exclude tensorflow_macos package on Windows
+        exclude_packages = ["tensorflow_macos"]  
 
     # Exclude specified packages
     if exclude_packages:
@@ -73,10 +73,10 @@ def run_script():
             print("Unsupported operating system. Please install Python 3.11 manually.")
             return
 
-        # Run the installation command
+        
         subprocess.run(install_command, shell=True)
         print("Python 3.11 installed successfully. Running the script...")
-        # Now, Python 3.11 should be installed, so run the script
+       
         subprocess.run([sys.executable, os.path.join("src", "aetherwatch_dns_server.py")])
 
 if __name__ == "__main__":
