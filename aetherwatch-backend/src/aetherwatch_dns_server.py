@@ -68,7 +68,7 @@ def create_data_object(query_name, client_address, ip_address, curr_time, is_mal
 
 # DNS Cache
 dns_cache = {}
-CACHE_EXPIRY_TIME = 300  # 5 minutes
+CACHE_EXPIRY_TIME = 300  
 
 resolver = dns.resolver.Resolver()
 
