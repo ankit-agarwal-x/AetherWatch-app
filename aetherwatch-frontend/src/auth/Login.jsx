@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../FirebaseSetup';
-import Logo from '../assets/logo.png'; // Update this with the correct path to your logo
+import Logo from '../assets/logo.png'; 
 
 function Login({ setAuthState, setUser }) {
   const [email, setEmail] = React.useState('');
